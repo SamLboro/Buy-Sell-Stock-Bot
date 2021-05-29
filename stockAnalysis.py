@@ -48,12 +48,12 @@ s = smtplib.SMTP('smtp.gmail.com', 587)
 s.starttls() # to make emails encrypted
 print("Creating Server")
 
-s.login("sambeynonstock@gmail.com", "uTWow8FA6%q7")
+s.login("youremail@here.com", "yourPasswordHere")
 print("Logging in")
 
 msg= "Subject: Check These Stocks\n" + dataframeStrongBuy.to_string()
-fromaddr = "sambeynonstock@gmail.com"
-toaddr = 'sambeynon@gmail.com'
+fromaddr = "youremail@here.com"
+toaddr = 'anotheremail@there.com'
 
 # Print the email's contents
 print('From: ' + fromaddr)
